@@ -58,7 +58,7 @@ This template is ideal for front-end developers who want to build modern, fast a
 - JavaScript runtime **[node.js][node]**;
 - **(OPTIONAL)** Alternative package manager:
   - **[PNPM][pnpm]** `npm install --global pnpm` <br /> or
-  - **[Yarn][yarn]** `npm install --global yarn`
+  - **[Yarn][yarn]** `npm install --global yarn`;
 
 ### Start developing:
 
