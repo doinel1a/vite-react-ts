@@ -7,7 +7,6 @@
 [issues]: https://github.com/doinel1a/vite-react-ts-starter/issues
 [pulls]: https://github.com/doinel1a/vite-react-ts-starter/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
-[graphviz]: https://www.graphviz.org/download
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [vite-react-ts-repo]: https://github.com/doinel1a/vite-react-ts-starter
 [vite-react-js-repo]: https://github.com/doinel1a/vite-react-js-starter
