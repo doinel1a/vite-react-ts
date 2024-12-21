@@ -26,11 +26,11 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Vite React Typescript — Template
+# Vite 6 React.js 19 Typescript — Template
 
 Are you looking for a way to supercharge your development experience and build stunning web applications with ease? You are in the right place!
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
-This template is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **React JS**, **TypeScript**, **Tailwind CSS**, **ESLint**, **Prettier**, **Husky**, **Vite** and much more!
+This template is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **React.js 19**, **TypeScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky**, **Vite 6** and much more!
 
 ---
 
@@ -82,14 +82,14 @@ This template is ideal for front-end developers who want to build modern, fast a
 
 This repository comes 🔋 packed with:
 
-- **React JS**: A library for building user interfaces that uses a declarative approach and provides a way to create reusable UI components;
+- **React.js 19**: A library for building user interfaces that uses a declarative approach and provides a way to create reusable UI components;
 - **TypeScript**: A programming language that adds static type checking to JavaScript and provides additional features such as interfaces, enums, and classes;
-- **Tailwind CSS**: A utility-first CSS framework that provides predefined classes for common styles and layout patterns, allowing quick styling without writing custom CSS;
+- **TailwindCSS**: A utility-first CSS framework that provides predefined classes for common styles and layout patterns, allowing quick styling without writing custom CSS;
 - **SASS**: A CSS preprocessor that adds features such as variables, nesting, and mixins to CSS, making it easier to write and maintain large CSS codebases;
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins, allowing to add new features to CSS and improve the development process;
 - **Fontawesome**: A library with over 5000 free icons that can be easily customized and used in web applications;
 - **Playwright**: A library for automating web browser interactions, allowing the writing of end-to-end tests and perform browser automation tasks;
-- **Vite**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
+- **Vite 6**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
 
 And with tools that enhance the development experience:
 
@@ -104,10 +104,10 @@ And with tools that enhance the development experience:
 
 ## :arrows_clockwise: Versions
 
-This repository comes configured with 2 of the industry standards for development tools: **Webpack** and **Vite**. <br />
+This repository comes configured with 2 of the industry standards for development tools: **Webpack** and **Vite 6**. <br />
 Both tools support **SWC (Speedy Web Compiler)**, a **Rust-based compiler**; Vite is optimized for it out of the box.
 
-### Vite (SWC compiler)
+### Vite 6 (SWC compiler)
 
 Is a simple and fast solution thanks to it's "zero-config" approach which offers a smoother development experience.
 

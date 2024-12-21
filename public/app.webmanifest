@@ -1,8 +1,8 @@
 {
   "lang": "en-EN",
-  "name": "Vite ReactTS — Starter",
-  "short_name": "ReactTS — Starter",
-  "description": "Start a React TypeScript App, SPA, landing page or website using Vite, Babel, Core-JS, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds.",
+  "name": "Vite 6 React 19 — Starter",
+  "short_name": "React 19 — Starter",
+  "description": "Start a React 19 TypeScript App, SPA, landing page or website using Vite 6, Babel, Core-JS, SASS / SCSS, TailwindCSS and much more, in just 30 seconds.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
