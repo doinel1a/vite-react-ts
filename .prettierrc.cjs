@@ -10,11 +10,8 @@ module.exports = {
   bracketSpacing: true,
   bracketSameLine: false,
   arrowParens: 'always',
-  endOfLine: 'crlf',
-  plugins: [
-    '@ianvs/prettier-plugin-sort-imports',
-    'prettier-plugin-tailwindcss'
-  ],
+  endOfLine: 'lf',
+  plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
   importOrder: [
     '<TYPES>',
     '<TYPES>^[.]',
