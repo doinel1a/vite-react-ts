@@ -1,14 +1,14 @@
 [node]: https://nodejs.org/en
 [yarn]: https://yarnpkg.com
 [pnpm]: https://pnpm.io
-[demo]: https://vite-react-ts-starter.d1a.app/
-[license]: https://github.com/doinel1a/vite-react-ts-starter/blob/main/LICENSE
-[code-of-conduct]: https://github.com/doinel1a/vite-react-ts-starter/blob/main/CODE_OF_CONDUCT.md
-[issues]: https://github.com/doinel1a/vite-react-ts-starter/issues
-[pulls]: https://github.com/doinel1a/vite-react-ts-starter/pulls
+[demo]: https://vite-react-ts.d1a.app/
+[license]: https://github.com/doinel1a/vite-react-ts/blob/main/LICENSE
+[code-of-conduct]: https://github.com/doinel1a/vite-react-ts/blob/main/CODE_OF_CONDUCT.md
+[issues]: https://github.com/doinel1a/vite-react-ts/issues
+[pulls]: https://github.com/doinel1a/vite-react-ts/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-[vite-react-ts-repo]: https://github.com/doinel1a/vite-react-ts-starter
+[vite-react-ts-repo]: https://github.com/doinel1a/vite-react-ts
 [vite-react-js-repo]: https://github.com/doinel1a/vite-react-js-starter
 [vite-vanilla-ts-repo]: ''
 [vite-vanilla-js-repo]: https://github.com/doinel1a/vite-vanilla-js
@@ -64,7 +64,7 @@ This template is ideal for front-end developers who want to build modern, fast a
 - Get the repository:
   - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
-    `git clone https://github.com/doinel1a/vite-react-ts-starter YOUR-PROJECT-NAME`;
+    `git clone https://github.com/doinel1a/vite-react-ts YOUR-PROJECT-NAME`;
 - Open your terminal or code editor to the path your project is located, and run:
 
   |                                                  | **NPM**           | **PNPM**       | **Yarn**       |
