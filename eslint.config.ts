@@ -1,6 +1,7 @@
 import reactJsxA11y from 'eslint-plugin-jsx-a11y';
 import prettier from 'eslint-plugin-prettier/recommended';
 import react from 'eslint-plugin-react';
+import reactCompiler from 'eslint-plugin-react-compiler';
 import reactDOM from 'eslint-plugin-react-dom';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactX from 'eslint-plugin-react-x';
@@ -17,6 +18,7 @@ export default defineConfig(
   unicorn.configs.recommended,
   // @ts-expect-error - No problem
   react.configs.flat['recommended'],
+  reactCompiler.configs.recommended,
   reactHooks.configs.flat['recommended-latest'],
   reactJsxA11y.flatConfigs.recommended,
   reactX.configs['recommended-type-checked'],
