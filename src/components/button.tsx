@@ -1,15 +1,15 @@
-import React from 'react';
+import type { MouseEventHandler } from 'react';
 
-interface IButton {
+type TButton = Readonly<{
   text: string;
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
-}
+  onClick: MouseEventHandler<HTMLButtonElement>;
+}>;
 
-export default function Button({ text, onClick }: IButton) {
+export default function Button({ text, onClick }: TButton) {
   return (
     <button
       type='button'
-      className='w-16 rounded-xl bg-primary px-4 py-2 text-xl'
+      className='bg-primary w-16 rounded-xl px-4 py-2 text-xl'
       onClick={onClick}
     >
       <span>{text}</span>
