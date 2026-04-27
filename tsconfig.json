@@ -1,22 +1,74 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    // ==========================================================================
+    // PROJECTS
+    // ==========================================================================
+    "incremental": true,
+    "tsBuildInfoFile": "dist/cache/.tsbuildinfo",
+
+    // ==========================================================================
+    // LANGUAGE & ENVIRONMENT
+    // ==========================================================================
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+
+    // ==========================================================================
+    // MODULES
+    // ==========================================================================
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+
+    // ==========================================================================
+    // JAVASCRIPT SUPPORT
+    // ==========================================================================
+    "allowJs": false,
+
+    // ==========================================================================
+    // EMIT
+    // ==========================================================================
     "noEmit": true,
-    "jsx": "react-jsx"
+
+    // ==========================================================================
+    // INTEROP CONSTRAINTS
+    // ==========================================================================
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // ==========================================================================
+    // TYPE CHECKING
+    // ==========================================================================
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+
+    // ==========================================================================
+    // OUTPUT FORMATTING
+    // ==========================================================================
+    "noErrorTruncation": true,
+
+    // ==========================================================================
+    // COMPLETENESS
+    // ==========================================================================
+    "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules"],
+  "include": ["src", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "_config.ts", "lint-staged.config.ts", "playwright.config.ts", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
