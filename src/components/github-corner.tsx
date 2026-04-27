@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface IGithubCorner {
   title: string;
   url: string;
