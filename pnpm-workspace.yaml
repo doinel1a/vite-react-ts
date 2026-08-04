@@ -1,5 +1,3 @@
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - '@swc/core'
-  - esbuild
-  - unrs-resolver
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
