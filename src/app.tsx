@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Counter from './components/counter';
 import GithubCorner from './components/github-corner';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <main className='flex h-screen flex-col items-center justify-center'>
@@ -16,5 +16,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
