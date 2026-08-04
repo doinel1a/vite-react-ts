@@ -107,7 +107,7 @@ export default defineConfig(
       'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
       'react/self-closing-comp': 'error',
 
-      'unicorn/prevent-abbreviations': [
+      'unicorn/name-replacements': [
         'error',
         {
           allowList: {
